@@ -1,0 +1,27 @@
+{
+  "name": "techdt.la-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timfulmer/techdt.la-stats.git"
+  },
+  "author": "timfulmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timfulmer/techdt.la-stats/issues"
+  },
+  "homepage": "https://github.com/timfulmer/techdt.la-stats#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "passport": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "restify": "^4.0.3",
+    "sails-mongo": "^0.11.4",
+    "waterline": "^0.10.26"
+  }
+}
