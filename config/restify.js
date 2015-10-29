@@ -10,7 +10,7 @@ function authorizeRedirectUrl(req,res,done){
   var scopes=req.authInfo.scope,
     found=false;
   scopes.some(function(scope){
-    if(scope.indexOf(req.headers.host)>-1 || scope.endsWith(req.url)>-1){
+    if(scope.indexOf(req.headers.host)>-1 || scope.endsWith(req.url)){
       found=true;
       return true;
     }
